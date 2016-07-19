@@ -16,7 +16,7 @@ I'll attempt to use the plainest language possible, and to avoid jargon by expli
 
 Please note that I am not on the React team, and do not speak from any authority. **This is not an official document**. I have asked members of the React team to review it for accuracy.
 
-This is also a **work in progress**. Fiber is an ongoing project, as are my attempts at to document its design here. Improvements and suggestions are highly welcome.
+This is also a work in progress. **Fiber is an ongoing project that will likely undergo significant refactors before it's completed.** Also ongoing are my attempts at to document its design here. Improvements and suggestions are highly welcome.
 
 My goal is that after reading this document, you will understand Fiber well enough to [follow along as it's implemented](https://github.com/facebook/react/commits/master/src/renderers/shared/fiber), and eventually even be able to contribute back to React.
 
