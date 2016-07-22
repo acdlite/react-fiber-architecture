@@ -183,7 +183,7 @@ function Parent() {
 
 The child fibers form a singly-linked list whose head is the first child. So in this example, the child of `Parent` is `Child1` and the sibling of `Child1` is `Child2`.
 
-Going back to our function analogy, you can think of a child fiber as a tail-called function.
+Going back to our function analogy, you can think of a child fiber as a [tail-called function](https://en.wikipedia.org/wiki/Tail_call).
 
 #### `return`
 
