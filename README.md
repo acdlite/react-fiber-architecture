@@ -141,7 +141,7 @@ In the next section, we'll look more at the structure of a fiber.
 
 ### Structure of a fiber
 
-*Note: as we get more specific about implementation details, the likelihood that something may change increases. Please file a PR if you any notice mistakes or outdated information.*
+*Note: as we get more specific about implementation details, the likelihood that something may change increases. Please file a PR if you notice any mistakes or outdated information.*
 
 In concrete terms, a fiber is a JavaScript object that contains information about a component, its input, and its output.
 
