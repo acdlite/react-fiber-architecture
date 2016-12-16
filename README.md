@@ -258,3 +258,4 @@ That's all there is for now, but this document is nowhere near complete. Future 
 
 ## Related Videos
 - [What's Next for React (ReactNext 2016)](https://youtu.be/aV1271hd9ew)
+- [Why, What, and How of React Fiber (December 2016)](https://youtu.be/crM1iRVGpGQ)
