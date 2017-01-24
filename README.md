@@ -258,3 +258,7 @@ That's all there is for now, but this document is nowhere near complete. Future 
 
 ## Related Videos
 - [What's Next for React (ReactNext 2016)](https://youtu.be/aV1271hd9ew)
+
+## Where to go next
+- [Fiber Principles: Contributing To Fiber](https://github.com/facebook/react/issues/7942) by [@sebmarkbage](https://github.com/sebmarkbage)
+- [Fiber specs](https://github.com/facebook/react/tree/master/src/renderers/shared/fiber/__tests__)
