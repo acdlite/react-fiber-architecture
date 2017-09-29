@@ -236,7 +236,7 @@ You should think of the `alternate` field as an implementation detail, but it po
 
 <dl>
   <dt>host component</dt>
-  <dd>The leaf nodes of a React application. They are specific to the rendering environment (e.g., in a browser app, they are `div`, `span`, etc.). In JSX, they are denoted using lowercase tag names.</dd>
+  <dd>The leaf nodes of a React application. They are specific to the rendering environment (e.g., in a browser app, they are <code>div</code>, <code>span</code>, etc.). In JSX, they are denoted using lowercase tag names.</dd>
 </dl>
 
 Conceptually, the output of a fiber is the return value of a function.
