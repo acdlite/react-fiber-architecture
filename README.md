@@ -70,7 +70,7 @@ Fiber reimplements the reconciler. It is not principally concerned with renderin
 
 <dl>
   <dt>scheduling</dt>
-  <dd>the process of determining when work should be performed.</dd>
+  <dd>the process of determining when and which work should be performed.</dd>
 
   <dt>work</dt>
   <dd>any computations that must be performed. Work is usually the result of an update (e.g. <code>setState</code>).
@@ -258,3 +258,4 @@ That's all there is for now, but this document is nowhere near complete. Future 
 
 ## Related Videos
 - [What's Next for React (ReactNext 2016)](https://youtu.be/aV1271hd9ew)
+- [Lin Clark - A Cartoon Intro to Fiber - React Conf 2017](https://www.youtube.com/watch?v=ZCuYPiUIONs): An awesome talk.
