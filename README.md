@@ -199,7 +199,7 @@ When the incoming `pendingProps` are equal to `memoizedProps`, it signals that t
 
 #### `pendingWorkPriority`
 
-A number indicating the priority of the work represented by the fiber. The [ReactPriorityLevel](https://github.com/facebook/react/blob/master/src/renderers/shared/fiber/ReactPriorityLevel.js) module lists the different priority levels and what they represent.
+A number indicating the priority of the work represented by the fiber. The [ReactFiberPendingPriority](https://github.com/facebook/react/blob/master/packages/react-reconciler/src/ReactFiberPendingPriority.js) module lists the different priority levels and what they represent.
 
 With the exception of `NoWork`, which is 0, a larger number indicates a lower priority. For example, you could use the following function to check if a fiber's priority is at least as high as the given level:
 
