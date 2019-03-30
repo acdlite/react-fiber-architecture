@@ -232,21 +232,21 @@ A fiber's alternate is created lazily using a function called `cloneFiber`. Rath
 
 You should think of the `alternate` field as an implementation detail, but it pops up often enough in the codebase that it's valuable to discuss it here.
 
-#### `output`
+#### `stateNode`
 
 <dl>
   <dt>host component</dt>
   <dd>The leaf nodes of a React application. They are specific to the rendering environment (e.g., in a browser app, they are `div`, `span`, etc.). In JSX, they are denoted using lowercase tag names.</dd>
 </dl>
 
-Conceptually, the output of a fiber is the return value of a function.
+Conceptually, the stateNode of a fiber is what that fiber represents.
 
-Every fiber eventually has output, but output is created only at the leaf nodes by **host components**. The output is then transferred up the tree.
-
-The output is what is eventually given to the renderer so that it can flush the changes to the rendering environment. It's the renderer's responsibility to define how the output is created and updated.
+Every fiber eventually has stateNode, but output differs between **host components** and **react components**
+For **host components**, the stateNode is the actuall dom element created by the react for the corresponding fiber.
+But for **react components**, the state node refers to the created instance of the component which used for rendering the fiber.
 
 ## Future sections
-
+is 
 That's all there is for now, but this document is nowhere near complete. Future sections will describe the algorithms used throughout the lifecycle of an update. Topics to cover include:
 
 - how the scheduler finds the next unit of work to perform.
